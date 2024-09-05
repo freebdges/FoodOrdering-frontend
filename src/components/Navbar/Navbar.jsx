@@ -25,16 +25,18 @@ const navigate = useNavigate()
       <ul className="navbar-menu">
         <Link to='/' onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>home</Link>
         <a href='#explore-menu' onClick={() => setMenu("menu")} className={menu === "menu" ? "active" : ""}>Menu</a>
-        <a href='https://shobhitrastogi-portfolio.netlify.app' >Portfolio</a>
+        <a target='_blank ' href='https://shobhitportfolio.vercel.app/' >Portfolio</a>
         <a href='#footer' onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>Contact us</a>
-        <a target='blank' href="https://blog-rastogi.netlify.app">
+        <a target='_blank' href="https://blog-rastogi.netlify.app">
                         <li>Blog</li>
                         </a>
-                         <a target='blank' href="https://youtuve.netlify.app">
+                         <a target='_blank' href="https://youtuve.netlify.app">
                         <li>Youtube</li>
                         </a>
-                        <a target='blank' href="https://inotebook-rastogi.netlify.app">
+                        <a target='_blank' href="https://inotebook-rastogi.netlify.app">
                         <li>iNotebook</li>
+                        </a> <a target='_blank' href="https://thoughtsagency.vercel.app/">
+                        <li>Blog2</li>
                         </a>
       </ul>
       <div className="navbar-right">
